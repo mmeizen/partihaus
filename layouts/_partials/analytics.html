@@ -11,13 +11,10 @@
     ></script>
   {{ end }}
   {{ with site.Params.umamiAnalytics }}
-    {{- $region := "eu" }}
-    {{- if isset . "region" }}
-      {{- $region = .region }}
-    {{- end }}
+    {{- $defaultScript := printf "https://%s.umami.is/script.js" (default "eu" .region) }}
     <script
       defer
-      src="https://{{ $region }}.umami.is/script.js"
+      src="{{ default $defaultScript .script }}"
       data-website-id="{{ .site }}"
     ></script>
   {{ end }}
