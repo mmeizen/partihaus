@@ -88,5 +88,6 @@ The list below is just a handful of the websites that are built using the Congo 
 | [janela.digital](https://janela.digital/)                              | Personal Blog (in Portuguese)     |
 | [leavex.eu](https://leavex.eu)                                         | Leave X Campaign Site             |
 | [cmp1315.com](https://cmp1315.com/)                                    | Site for medical center           |
+| [softwarewitchcraft.com](https://softwarewitchcraft.com/)              | Personal Blog                     |
 
 **Congo user?** To add your site to this list, [submit a pull request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md).
