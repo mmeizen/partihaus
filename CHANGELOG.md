@@ -6,7 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-- Upgrade to Mermaid v11.12.1 ([#1087](https://github.com/jpanther/congo/pull/1087), [#1123](https://github.com/jpanther/congo/pull/1123))
+### Changed
+
+- Upgrade to Mermaid v11.12.2 ([#1087](https://github.com/jpanther/congo/pull/1087), [#1123](https://github.com/jpanther/congo/pull/1123))
+
+### Fixed
+
+- Code copy button not working when `noClasses` is set to `true` ([#1091](https://github.com/jpanther/congo/pull/1091))
 
 ## [2.12.2] - 2025-07-13
 
