@@ -9,11 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed
 
 - Upgrade to Mermaid v11.12.2 ([#1087](https://github.com/jpanther/congo/pull/1087), [#1123](https://github.com/jpanther/congo/pull/1123))
+- Upgrade to ChartJS v4.5.1 ([#1131](https://github.com/jpanther/congo/pull/1131))
+- Upgrade to Tailwind v3.4.19 ([#1132](https://github.com/jpanther/congo/pull/1132))
+- Upgrade to Typography v0.5.19 ([#1133](https://github.com/jpanther/congo/pull/1133))
 
 ### Fixed
 
-- `rel` parameter not added to links when specified in menu configuration ([#1116](https://github.com/jpanther/congo/pull/1116))
 - Code copy button not working when `noClasses` is set to `true` ([#1091](https://github.com/jpanther/congo/pull/1091))
+- `rel` parameter not added to links when specified in menu configuration ([#1116](https://github.com/jpanther/congo/pull/1116))
 - Deprecated references to `_build` front matter key in Hugo v0.145.0 or later
 
 ## [2.12.2] - 2025-07-13
