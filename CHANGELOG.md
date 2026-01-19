@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+- Upgrade to Mermaid v11.12.1 ([#1087](https://github.com/jpanther/congo/pull/1087), [#1123](https://github.com/jpanther/congo/pull/1123))
+
 ## [2.12.2] - 2025-07-13
 
 ### Added
