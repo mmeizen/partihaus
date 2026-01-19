@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Code copy button not working when `noClasses` is set to `true` ([#1091](https://github.com/jpanther/congo/pull/1091))
 - `rel` parameter not added to links when specified in menu configuration ([#1116](https://github.com/jpanther/congo/pull/1116))
+- References to `_internal` templates that no longer apply in the new Hugo templating system ([#1124](https://github.com/jpanther/congo/issues/1124))
 - Deprecated references to `_build` front matter key in Hugo v0.145.0 or later
 
 ## [2.12.2] - 2025-07-13
