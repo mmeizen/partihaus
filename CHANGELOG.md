@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Fixed
 
+- `rel` parameter not added to links when specified in menu configuration ([#1116](https://github.com/jpanther/congo/pull/1116))
 - Code copy button not working when `noClasses` is set to `true` ([#1091](https://github.com/jpanther/congo/pull/1091))
 - Deprecated references to `_build` front matter key in Hugo v0.145.0 or later
 
