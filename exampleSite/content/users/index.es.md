@@ -86,5 +86,7 @@ La lista a continuación es solo un puñado de sitios web creados con el tema Co
 | [peregrinator.site](https://peregrinator.site)                         | Personal Site and Blog            |
 | [wendyliga.com](https://wendyliga.com)                                 | Personal Site and Blog            |
 | [Yan Dong](https://www.yandong.xyz/en/)                                | Personal Site (Chinese/English)   |
+| [reliable.codes](https://reliable.codes/)                              | Professional site (programming)   |
+| [softwarewitchcraft.com](https://softwarewitchcraft.com/)              | Personal Blog                     |
 
 **¿Usuaria de congo?** Para agregar tu sitio a esta lista, [haz un pull request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md).

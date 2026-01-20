@@ -90,5 +90,6 @@ The list below is just a handful of the websites that are built using the Congo 
 | [cmp1315.com](https://cmp1315.com/)                                    | Site for medical center           |
 | [Yan Dong](https://www.yandong.xyz/en/)                                | Personal Site (Chinese/English)   |
 | [reliable.codes](https://reliable.codes/)                              | Professional site (programming)   |
+| [softwarewitchcraft.com](https://softwarewitchcraft.com/)              | Personal Blog                     |
 
 **Congo user?** To add your site to this list, [submit a pull request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md).

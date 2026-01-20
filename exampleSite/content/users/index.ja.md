@@ -86,5 +86,7 @@ Congoを使用して構築された実際のウェブサイト。
 | [peregrinator.site](https://peregrinator.site)                         | Personal Site and Blog            |
 | [wendyliga.com](https://wendyliga.com)                                 | Personal Site and Blog            |
 | [Yan Dong](https://www.yandong.xyz/en/)                                | Personal Site (Chinese/English)   |
+| [reliable.codes](https://reliable.codes/)                              | Professional site (programming)   |
+| [softwarewitchcraft.com](https://softwarewitchcraft.com/)              | Personal Blog                     |
 
 **Congoを使っていますか？** あなたのウェブサイトを加えるために[Pull Request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md)を投げてください。
