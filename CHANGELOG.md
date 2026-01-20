@@ -12,11 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Upgrade to ChartJS v4.5.1 ([#1131](https://github.com/jpanther/congo/pull/1131))
 - Upgrade to Tailwind v3.4.19 ([#1132](https://github.com/jpanther/congo/pull/1132))
 - Upgrade to Typography v0.5.19 ([#1133](https://github.com/jpanther/congo/pull/1133))
+- Upgrade to KaTeX v0.16.27 ([#1136](https://github.com/jpanther/congo/pull/1136))
 
 ### Fixed
 
 - Code copy button not working when `noClasses` is set to `true` ([#1091](https://github.com/jpanther/congo/pull/1091))
 - `rel` parameter not added to links when specified in menu configuration ([#1116](https://github.com/jpanther/congo/pull/1116))
+- Certain KaTeX mathematical expressions not being parsed correctly in Markdown ([#1121](https://github.com/jpanther/congo/issues/1121))
 - References to `_internal` templates that no longer apply in the new Hugo templating system ([#1124](https://github.com/jpanther/congo/issues/1124))
 - Deprecated references to `_build` front matter key in Hugo v0.145.0 or later
 
