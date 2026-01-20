@@ -18,7 +18,7 @@ Real websites that have been built using Congo.
 The list below is just a handful of the websites that are built using the Congo theme. Check them out to discover some great examples of what the theme can do.
 
 | Website                                                                | Details                           |
-|------------------------------------------------------------------------|-----------------------------------|
+| ---------------------------------------------------------------------- | --------------------------------- |
 | [jamespanther.com](https://jamespanther.com)                           | Personal site - Theme author      |
 | [antoinesoetewey.com](https://antoinesoetewey.com/)                    | Personal site                     |
 | [leif.io](https://leif.io/)                                            | Personal site and Tech blog       |
@@ -41,7 +41,7 @@ The list below is just a handful of the websites that are built using the Congo 
 | [medical-humanities](https://medical-humanities.org)                   | Academic site                     |
 | [boyersnet.com](https://boyersnet.com)                                 | Personal site and Blog            |
 | [major.io](https://major.io)                                           | Personal site and Blog            |
-| [顾宇的博客](https://www.guyu.me/)                                          | Personal Blog (in Chinese)        |
+| [顾宇的博客](https://www.guyu.me/)                                     | Personal Blog (in Chinese)        |
 | [cgutierr-zgz.github.io](https://cgutierr-zgz.github.io/)              | Personal site and Tech blog       |
 | [adam.sr](https://adam.sr)                                             | Personal site and Blog            |
 | [kpavlov.me](https://kpavlov.me)                                       | Personal site and Blog            |
@@ -88,6 +88,7 @@ The list below is just a handful of the websites that are built using the Congo 
 | [janela.digital](https://janela.digital/)                              | Personal Blog (in Portuguese)     |
 | [leavex.eu](https://leavex.eu)                                         | Leave X Campaign Site             |
 | [cmp1315.com](https://cmp1315.com/)                                    | Site for medical center           |
+| [Yan Dong](https://www.yandong.xyz/en/)                                | Personal Site (Chinese/English)   |
 | [reliable.codes](https://reliable.codes/)                              | Professional site (programming)   |
 
 **Congo user?** To add your site to this list, [submit a pull request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md).

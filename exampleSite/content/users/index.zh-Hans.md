@@ -85,5 +85,6 @@ showEdit: false
 | [Rwhither's Blog](https://blog.sky123.top)                             | Personal site and blog            |
 | [peregrinator.site](https://peregrinator.site)                         | Personal Site and Blog            |
 | [wendyliga.com](https://wendyliga.com)                                 | Personal Site and Blog            |
+| [言东](https://www.yandong.xyz/)                                        | Personal Site (Chinese/English)   |
 
 **想成为Congo的用户？** 要将您的网站添加到此列表中，请提交[Pull Request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md)来添加。
