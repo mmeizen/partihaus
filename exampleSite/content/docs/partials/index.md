@@ -42,7 +42,7 @@ To enable Plausible analytics support, simply provide the domain of the website 
 
 ### Umami Analytics
 
-To enable support for Umami Analytics, insert the _tracking code token_ provided by Umami into the `site` parameter to monitor the site. You can also insert a `region` parameter to indicate the region of Umami Analytics servers that you want to connect to. The values can be `eu` or `us`.Refer to [getting started section at umami.is](https://umami.is/docs/getting-started) for more details. You can also provide a `script` parameter to use a custom script URL if you are self-hosting Umami or using a proxied script. It will override the default script URL and region parameter.
+To enable support for Umami Analytics, insert the _tracking code token_ provided by Umami into the `site` parameter to monitor the site. You can also insert a `region` parameter to indicate the region of Umami Analytics servers that you want to connect to. The values can be `eu` or `us`.Refer to [getting started section at umami.is](https://umami.is/docs/) for more details. You can also provide a `script` parameter to use a custom script URL if you are self-hosting Umami or using a proxied script. It will override the default script URL and region parameter.
 
 ```toml
 # config/_default/params.toml

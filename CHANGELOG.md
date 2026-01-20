@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- New `script` parameter for Umami Analytics to allow self-hosted deployments ([#1103](https://github.com/jpanther/congo/pull/1103))
+
 ### Changed
 
 - Upgrade to Mermaid v11.12.2 ([#1087](https://github.com/jpanther/congo/pull/1087), [#1123](https://github.com/jpanther/congo/pull/1123))
