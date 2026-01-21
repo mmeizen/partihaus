@@ -61,7 +61,9 @@ The theme currently supports the following languages out of the box:
 | Finnish               | `fi`      |
 | French                | `fr`      |
 | German                | `de`      |
+| Gujarati              | `gu`      |
 | Hebrew                | `he`      |
+| Hindi                 | `hi`      |
 | Hungarian             | `hu`      |
 | Indonesian            | `id`      |
 | Italian               | `it`      |
