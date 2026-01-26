@@ -81,6 +81,7 @@ The list below is just a handful of the websites that are built using the Congo 
 | [Yan Dong](https://www.yandong.xyz/en/)                          | Personal Site (Chinese/English)              |
 | [reliable.codes](https://reliable.codes/)                        | Professional site (programming)              |
 | [softwarewitchcraft.com](https://softwarewitchcraft.com/)        | Personal Blog                                |
-| [OrO-c的博客](https://blog.oroc.top)                             | Personal site and Literary blog (in Chinese) |
+| [OrO-c的博客](https://blog.oroc.top)                              | Personal site and Literary blog (in Chinese) |
+| [yashgarg.dev](https://yashgarg.dev)                             | Personal Site and Blog                       |
 
 **Congo user?** To add your site to this list, [submit a pull request](https://github.com/jpanther/congo/blob/dev/exampleSite/content/users/index.md).
