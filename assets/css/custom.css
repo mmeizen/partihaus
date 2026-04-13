@@ -1,0 +1,17 @@
+header a[href="/"] {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 8rem;
+  line-height: 1;
+}
