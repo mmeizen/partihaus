@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313/"
 defaultContentLanguage = "en"
 theme = "congo"
-title = "Partihaus"
+title = "partihaus"
 
 enableRobotsTXT = true
 summaryLength = 0
@@ -11,3 +11,18 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[[menus.main]]
+  name = "partihaus"
+  url = "https://partihaus.com"
+  weight = 5
+
+[[menus.main]]
+  name = "products"
+  url = "/products/"
+  weight = 10
+
+[[menus.main]]
+  name = "about"
+  url = "/about/"
+  weight = 20

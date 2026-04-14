@@ -2,12 +2,27 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "Partihaus"
+title = "partihaus"
 
 [params]
   dateFormat = "2 January 2006"
   description = "Curated objects for the design-minded."
 
 [params.author]
-  name = "Partihaus"
+  name = "partihaus"
   headline = "Curated objects for the design-minded."
+
+[[menus.main]]
+  name = "partihaus"
+  url = "/"
+  weight = 5
+
+[[menus.main]]
+  name = "products"
+  url = "/products/"
+  weight = 10
+
+[[menus.main]]
+  name = "about"
+  url = "/about/"
+  weight = 20

@@ -1,3 +1,3 @@
-module github.com/jpanther/congo/v2
+module github.com/mmeizen/partihaus
 
 go 1.16

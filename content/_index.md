@@ -1,5 +1,5 @@
 ---
-title: "Partihaus"
+title: "partihaus"
 description: "Curated objects for the design-minded."
 showHeading: false
 ---
@@ -10,4 +10,4 @@ main { display: flex; flex-direction: column; align-items: center; justify-conte
 main h1 { font-size: 8rem; line-height: 1; }
 </style>
 
-Objects with intent
+objects with intent
