@@ -1,0 +1,93 @@
+/* Import Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* =========================
+   Base styles
+   ========================= */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  color: #333333;
+  background-color: #f3f3f3;
+}
+
+/* =========================
+   Layout (centered homepage)
+   ========================= */
+
+body.list.home main,
+body.home main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Remove site title in header */
+header a[href="/"] {
+  display: none;
+}
+
+/* Push nav to top right cleanly */
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 2rem;
+}
+
+header nav a {
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+/* =========================
+   Typography
+   ========================= */
+
+/* Main title */
+h1,
+.prose h1,
+.hero h1,
+.hero-title h1 {
+  font-size: 6.8rem;
+  line-height: 1;
+  font-weight: 400; /* keeping your chosen regular weight */
+  letter-spacing: -0.025em;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+/* Subtitle */
+p,
+.prose p {
+  font-size: 1.75rem;
+  color: #4a4a4a;
+  margin-top: 0.3rem;
+}
+
+/* Clean up extra Congo spacing */
+.prose {
+  max-width: none;
+}
+
+main > * {
+  margin: 0;
+}
+
+footer .flex.flex-row.items-center > div > div > button {
+  display: none !important;
+}
+
+a[aria-label="Scroll to top"] {
+  display: none !important;
+}
+
+

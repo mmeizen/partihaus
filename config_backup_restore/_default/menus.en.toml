@@ -1,0 +1,14 @@
+[[main]]
+  name = "partihaus"
+  url = "/"
+  weight = 5
+
+[[main]]
+  name = "products"
+  url = "/products/"
+  weight = 10
+
+[[main]]
+  name = "about"
+  url = "/about/"
+  weight = 20

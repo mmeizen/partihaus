@@ -1,0 +1,19 @@
+colorScheme = "congo"
+description = "Curated objects for the design-minded."
+
+[author]
+  name = "Partihaus"
+  image = ""
+  headline = "Curated objects for the design-minded."
+  bio = ""
+
+[homepage]
+  layout = "page"
+  showRecent = false
+
+[head]
+  customCSS = ["custom.css"]
+
+[footer]
+  showCopyright = false
+  showThemeAttribution = false

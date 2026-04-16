@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* =========================
+   Global typography
+   ========================= */
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  color: #333333; /* 80% black */
+}
+
+/* headings */
+h1, h2, h3 {
+  font-weight: 400;
+  color: #2f2f2f;
+}
+
+/* =========================
+   Layout (homepage only feel)
+   ========================= */
+
+header a[href="/"] {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+/* homepage title */
+h1,
+.prose h1,
+.hero h1,
+.hero-title h1 {
+  font-size: 6.8rem;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+/* subtitle */
+p,
+.prose p {
+  font-size: 1
+.25rem;
+  color: #4a4a4a;
+}
