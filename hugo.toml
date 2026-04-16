@@ -1,4 +1,7 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
+languageCode = 'en-us'
 title = 'partihaus'
 theme = "congo"
+
+[params]
+  author = "partihaus"

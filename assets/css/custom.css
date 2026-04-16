@@ -90,4 +90,18 @@ a[aria-label="Scroll to top"] {
   display: none !important;
 }
 
+header nav a span {
+  text-decoration: none !important;
+}
 
+header nav a:hover span,
+header nav a:focus span {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* kills Congo/Tailwind underline system */
+.group-hover\:underline {
+  text-decoration: none !important;
+}
