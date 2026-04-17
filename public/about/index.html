@@ -9,7 +9,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="true"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58231&amp;path=livereload" data-no-instant defer></script>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -23,7 +23,7 @@
   
   <script
     type="text/javascript"
-    src="http://localhost:58231/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
     integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
   ></script>
   
@@ -39,8 +39,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="http://localhost:58231/css/main.bundle.min.aed3ea0b1d8823eaa25e0ef699fe6fb808db22ff50cb25bc659138019e3e79f4.css"
-    integrity="sha256-rtPqCx2II&#43;qiXg72mf5vuAjbIv9QyyW8ZZE4AZ4&#43;efQ="
+    href="http://localhost:1313/css/main.bundle.min.9c4cc2696464ab375c1c183020ce8206de27d88421848d86c1a0e064a3fc1b95.css"
+    integrity="sha256-nEzCaWRkqzdcHBgwIM6CBt4n2IQhhI2GwaDgZKP8G5U="
   />
   
   
@@ -61,9 +61,9 @@
   
   
   
-    <link rel="canonical" href="http://localhost:58231/about/" />
+    <link rel="canonical" href="http://localhost:1313/about/" />
   
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:58231/about/index.xml" title="Congo" />
+  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/about/index.xml" title="Congo" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -78,7 +78,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:58231/about/">
+  <meta property="og:url" content="http://localhost:1313/about/">
   <meta property="og:site_name" content="Congo">
   <meta property="og:title" content="about">
   <meta property="og:description" content="A powerful, lightweight theme for Hugo built with Tailwind CSS.">
@@ -212,17 +212,24 @@
       <style>
 /* PAGE LAYOUT */
 .prose {
-  max-width: 600px !important;
+  max-width: 750px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
-  text-align: left !important;
+  text-align: center !important;
+}
+
+.prose {
+  max-width: 750px !important;
+}
+.max-w-prose {
+  max-width: 750px !important;
 }
 
 /* TITLE (REAL CONGO H1) */
 main > header {
-  max-width: 665px !important;
+  max-width: 820px !important;
   margin: 0 auto !important;
-  text-align: left !important;
+  text-align: center !important;
   display: block !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -236,21 +243,21 @@ h1.mt-0 {
 /* TITLE STYLE */
 header h1,
 h1.mt-0.text-4xl.font-extrabold {
-  text-align: left !important;
+  text-align: center !important;
   font-weight: 300 !important;
   font-size: 3rem;
-  color: #3a3a3a !important;
+  color: #333333 !important;
   letter-spacing: -0.02em;
   margin-bottom: -2rem !important;
 }
 
 /* BODY TEXT */
 .prose p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 1.4;
   margin: 0 0 1.2rem 0;
-  color: #3a3a3a;
+  color: #333333;
 }
 
 /* CLEAN SPACING */
@@ -278,7 +285,7 @@ section.prose.mt-10 {
 #back-link a:hover,
 #back-link a:active,
 #back-link a:focus {
-  color: #3a3a3a !important;
+  color: #333333 !important;
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
@@ -298,13 +305,13 @@ nav a {
 
 #back-link a {
   all: unset;
-  color: #3a3a3a;
+  color: #333333;
   cursor: pointer;
 }
 
 nav a,
 nav a:visited {
-  color: #3a3a3a !important;
+  color: #333333 !important;
   text-decoration: none !important;
 }
 
@@ -315,11 +322,21 @@ header nav a:hover {
   box-shadow: none !important;
 }
 
+.divider {
+  margin: 0 0.2rem;   /* controls space on BOTH sides */
+  opacity: .75;       /* optional: softer look */
+}
+
+.prose p.center-line {
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+}
+
 </style>
 <div id="back-link"><a href="/">← partihaus</a></div>
-<p>partihaus curates objects with a clear parti—selected for function, form, and longevity. this collection is for people who think about design - and for the people who love them.</p>
-<p>timeless over trendy. quality over imitation. intentional design.</p>
-<p>if you&rsquo;ve ever struggled to find a gift for someone who knows the difference between good design and everything else — this is for you.</p>
+<p>partihaus curates objects with a clear parti — selected for function, form, and longevity</p>
+<p class="center-line"> timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design </p>
+<p>this collection is for those who think about design — and those who gift them</p>
 
     </div>
   </section>

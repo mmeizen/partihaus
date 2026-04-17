@@ -6,17 +6,24 @@ showTitle: true
 <style>
 /* PAGE LAYOUT */
 .prose {
-  max-width: 600px !important;
+  max-width: 750px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
-  text-align: left !important;
+  text-align: center !important;
+}
+
+.prose {
+  max-width: 750px !important;
+}
+.max-w-prose {
+  max-width: 750px !important;
 }
 
 /* TITLE (REAL CONGO H1) */
 main > header {
-  max-width: 665px !important;
+  max-width: 820px !important;
   margin: 0 auto !important;
-  text-align: left !important;
+  text-align: center !important;
   display: block !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -30,21 +37,21 @@ h1.mt-0 {
 /* TITLE STYLE */
 header h1,
 h1.mt-0.text-4xl.font-extrabold {
-  text-align: left !important;
+  text-align: center !important;
   font-weight: 300 !important;
   font-size: 3rem;
-  color: #3a3a3a !important;
+  color: #333333 !important;
   letter-spacing: -0.02em;
   margin-bottom: -2rem !important;
 }
 
 /* BODY TEXT */
 .prose p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 1.4;
   margin: 0 0 1.2rem 0;
-  color: #3a3a3a;
+  color: #333333;
 }
 
 /* CLEAN SPACING */
@@ -72,7 +79,7 @@ section.prose.mt-10 {
 #back-link a:hover,
 #back-link a:active,
 #back-link a:focus {
-  color: #3a3a3a !important;
+  color: #333333 !important;
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
@@ -92,13 +99,13 @@ nav a {
 
 #back-link a {
   all: unset;
-  color: #3a3a3a;
+  color: #333333;
   cursor: pointer;
 }
 
 nav a,
 nav a:visited {
-  color: #3a3a3a !important;
+  color: #333333 !important;
   text-decoration: none !important;
 }
 
@@ -109,12 +116,22 @@ header nav a:hover {
   box-shadow: none !important;
 }
 
+.divider {
+  margin: 0 0.2rem;   /* controls space on BOTH sides */
+  opacity: .75;       /* optional: softer look */
+}
+
+.prose p.center-line {
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+}
+
 </style>
 
 <div id="back-link"><a href="/">← partihaus</a></div>
 
-partihaus curates objects with a clear parti—selected for function, form, and longevity. this collection is for people who think about design - and for the people who love them.
+partihaus curates objects with a clear parti — selected for function, form, and longevity 
 
-timeless over trendy. quality over imitation. intentional design.
+<p class="center-line"> timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design </p>
 
-if you've ever struggled to find a gift for someone who knows the difference between good design and everything else — this is for you.
+this collection is for those who think about design — and those who gift them

@@ -12,7 +12,7 @@ html, body {
 
 body {
   font-family: "Inter", system-ui, -apple-system, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #333333;
   background-color: #f3f3f3;
 }
@@ -62,14 +62,14 @@ h1,
   font-weight: 400; /* keeping your chosen regular weight */
   letter-spacing: -0.025em;
   margin: 0;
-  color: #4a4a4a;
+  color: #333333;
 }
 
 /* Subtitle */
 p,
 .prose p {
   font-size: 1.75rem;
-  color: #4a4a4a;
+  color: #333333;
   margin-top: 0.3rem;
 }
 
