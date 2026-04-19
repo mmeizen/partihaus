@@ -8,5 +8,68 @@
     <language>en-AU</language>
     <copyright>&amp;copy; 2024 Congo contributors</copyright>
     <atom:link href="http://localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Barbry Salt &amp; Pepper Mills</title>
+      <link>http://localhost:1313/products/barbry-salt-pepper-mills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/barbry-salt-pepper-mills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blomus Alpha Decanting Carafe</title>
+      <link>http://localhost:1313/products/blomus-alpha-carafe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/blomus-alpha-carafe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emma French Press</title>
+      <link>http://localhost:1313/products/emma-french-press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/emma-french-press/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iittala Kartio Tumbler</title>
+      <link>http://localhost:1313/products/iittala-kartio-tumbler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/iittala-kartio-tumbler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kaiser Idell Table Lamp</title>
+      <link>http://localhost:1313/products/kaiser-idell-lamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/kaiser-idell-lamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kontra Fruit Bowl</title>
+      <link>http://localhost:1313/products/kontra-fruit-bowl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/kontra-fruit-bowl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubus Candleholder</title>
+      <link>http://localhost:1313/products/kubus-candleholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/kubus-candleholder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pantone Mug</title>
+      <link>http://localhost:1313/products/pantone-mug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/pantone-mug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Turning Tray</title>
+      <link>http://localhost:1313/products/turning-tray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/turning-tray/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

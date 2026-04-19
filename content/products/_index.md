@@ -1,6 +1,10 @@
 ---
 title: "products"
 showTitle: true
+params:
+  disableList: true
+cascade:
+  showList: false
 ---
 <style>
 /* PAGE LAYOUT */
@@ -107,6 +111,10 @@ header nav a:hover {
 .prose p.center-line {
   font-weight: 600 !important;
   letter-spacing: 0.02em;
+}
+
+#main-content section:nth-of-type(2) {
+  display: none !important;
 }
 
 /* PRODUCTS GRID */
@@ -219,7 +227,7 @@ header nav a:hover {
 
   <!-- ROW 1 -->
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/kontra-fruit-bowl/">
     <div class="product-image">
       <img src="/images/products/kontra-bowl.jpg" alt="Stelton Kontra Fruit Bowl" loading="lazy">
     </div>
@@ -227,7 +235,7 @@ header nav a:hover {
     <p class="product-descriptor">wood and stainless steel</p>
   </a>
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/kaiser-idell-lamp/">
     <div class="product-image">
       <img src="/images/products/kaiser-lamp.jpg" alt="Kaiser Idell Table Lamp" loading="lazy">
     </div>
@@ -235,7 +243,7 @@ header nav a:hover {
     <p class="product-descriptor">bauhaus steel, high-gloss finish</p>
   </a>
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/kubus-candleholder/">
     <div class="product-image">
       <img src="/images/products/kubus-candleholder.jpg" alt="Kubus Candleholder" loading="lazy">
     </div>
@@ -246,7 +254,7 @@ header nav a:hover {
 
   <!-- ROW 2 -->
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/emma-french-press/">
     <div class="product-image">
       <img src="/images/products/emma-french-press.jpg" alt="Stelton Emma French Press" loading="lazy">
     </div>
@@ -254,7 +262,7 @@ header nav a:hover {
     <p class="product-descriptor">steel with beechwood handle</p>
   </a>
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/barbry-salt-pepper-mills/">
     <div class="product-image">
       <img src="/images/products/barbry-salt-pepper.jpg" alt="Barbry Salt and Pepper Mills" loading="lazy">
     </div>
@@ -262,7 +270,7 @@ header nav a:hover {
     <p class="product-descriptor">polished stainless steel</p>
   </a>
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/blomus-alpha-carafe/">
     <div class="product-image">
       <img src="/images/products/blomus-decantor.jpg" alt="blomus Alpha decanting carafe" loading="lazy">
     </div>
@@ -273,7 +281,7 @@ header nav a:hover {
 
   <!-- ROW 3 -->
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/iittala-kartio-tumbler">
     <div class="product-image">
       <img src="/images/products/iittala-Kartio-Tumbler.jpg" alt="iittala Kartio Tumbler" loading="lazy">
     </div>
@@ -281,7 +289,7 @@ header nav a:hover {
     <p class="product-descriptor">Clear Medium Glass (Set of 8) </p>
   </a>
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/turning-tray/">
     <div class="product-image">
       <img src="/images/products/turning-tray.jpg" alt="Finn Juhl Turning Tray" loading="lazy">
     </div>
@@ -289,7 +297,7 @@ header nav a:hover {
     <p class="product-descriptor">dual-tone laminated wood</p>
   </a>
 
-  <a class="product-card" href="AFFILIATE_URL" target="_blank" rel="noopener sponsored">
+  <a class="product-card" href="/products/pantone-mug/">
     <div class="product-image">
       <img src="/images/products/pantone-mug.jpg" alt="Pantone Mug" loading="lazy">
     </div>
@@ -298,3 +306,4 @@ header nav a:hover {
   </a>
 
 </div>
+

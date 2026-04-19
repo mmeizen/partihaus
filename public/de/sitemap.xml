@@ -12,11 +12,6 @@
               />
             <xhtml:link
               rel="alternate"
-              hreflang="zh-hans"
-              href="http://localhost:1313/zh-hans/"
-              />
-            <xhtml:link
-              rel="alternate"
               hreflang="es"
               href="http://localhost:1313/es/"
               />
@@ -24,6 +19,11 @@
               rel="alternate"
               hreflang="ja"
               href="http://localhost:1313/ja/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh-hans"
+              href="http://localhost:1313/zh-hans/"
               />
             <xhtml:link
               rel="alternate"
