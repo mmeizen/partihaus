@@ -2,69 +2,51 @@
 title: "about"
 showTitle: true
 ---
-
 <style>
-/* PAGE LAYOUT */
 .prose {
   max-width: 750px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
-  text-align: center !important;
-}
-
-.prose {
-  max-width: 750px !important;
+  padding-right: 10vh !important;
+  text-align: left !important;
 }
 .max-w-prose {
   max-width: 750px !important;
 }
-
-/* TITLE (REAL CONGO H1) */
 main > header {
   max-width: 820px !important;
   margin: 0 auto !important;
-  text-align: center !important;
+  text-align: left !important;
   display: block !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
-
-/* TITLE SPACING */
 h1.mt-0 {
-  margin-top: 8rem !important;
+  margin-top: 0rem !important;
 }
-
-/* TITLE STYLE */
 header h1,
 h1.mt-0.text-4xl.font-extrabold {
-  text-align: center !important;
+  text-align: left !important;
   font-weight: 300 !important;
-  font-size: 3rem;
+  font-size: 3rem !important;
   color: #333333 !important;
   letter-spacing: -0.02em;
   margin-bottom: -2rem !important;
 }
-
-/* BODY TEXT */
 .prose p {
   font-weight: 300;
   font-size: 1.2rem;
-  line-height: 1.4;
-  margin: 0 0 1.2rem 0;
+  line-height: 1.5;
+  margin: 0 0 0.75rem 0;
   color: #333333;
 }
-
-/* CLEAN SPACING */
 .prose > * {
   margin-top: 0 !important;
 }
-
 .prose hr,
 section.prose.mt-10 {
   display: none !important;
 }
-
-/* BACK LINK */
 #back-link {
   position: fixed !important;
   top: 2.75rem !important;
@@ -73,7 +55,6 @@ section.prose.mt-10 {
   font-weight: 300 !important;
   z-index: 100 !important;
 }
-
 #back-link a,
 #back-link a:visited,
 #back-link a:hover,
@@ -84,54 +65,53 @@ section.prose.mt-10 {
   border-bottom: none !important;
   box-shadow: none !important;
 }
-
 #back-link a:hover {
   color: #000000 !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
 }
-
-/* NAV CLEANUP */
-nav a {
-  text-decoration: none !important;
-}
-
 #back-link a {
   all: unset;
   color: #333333;
   cursor: pointer;
 }
-
 nav a,
 nav a:visited {
   color: #333333 !important;
   text-decoration: none !important;
 }
-
 header nav a:hover {
   color: #000000 !important;
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
 }
-
 .divider {
-  margin: 0 0.2rem;   /* controls space on BOTH sides */
-  opacity: .75;       /* optional: softer look */
+  margin: 0 0.2rem;
+  opacity: .75;
 }
-
 .prose p.center-line {
   font-weight: 600 !important;
   letter-spacing: 0.02em;
+  text-align: center !important;
+  margin: 1.5rem 0 !important;
+  padding-right: 4vh !important;
 }
 
+footer hr {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #back-link { left: 1.25rem !important; }
+  .prose { max-width: 100% !important; }
+}
 </style>
 
 <div id="back-link"><a href="/">← partihaus</a></div>
 
-partihaus curates objects with a clear parti — selected for function, form, and longevity 
+the name comes from architecture. *parti* is the simplest possible diagram of a design idea — the concept stripped to its core before anything else is added. *haus* is home, and a quiet reference to the Bauhaus, which spent a century proving that the objects you live with should be both useful and beautiful
 
-<p class="center-line"> timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design </p>
+*partihaus* curates from that same conviction — objects with a clear *parti* and selected for function, form, and longevity.
 
-this collection is for those who think about design — and those who gift them
+<p class="center-line">timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design</p>
+
+this collection is for those who think about design — and those who gift them.
