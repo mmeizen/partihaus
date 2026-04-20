@@ -10,6 +10,6 @@ designer: "Mogens Lassen"
 materials: "powder-coated steel"
 origin: "Denmark"
 made_for: "atmosphere, daily use, gifting"
-affiliate_url: "AFFILIATE_URL"
+affiliate_url: "https://www.finnishdesignshop.com/en-us/product/kubus-4-candleholder-white"
 affiliate_text: "find it here →"
 ---

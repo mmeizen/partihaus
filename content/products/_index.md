@@ -335,13 +335,13 @@ footer hr {
 
 <div class="products-grid" id="productsGrid">
 
-  <a class="product-card" href="/products/kontra-fruit-bowl/" data-category="atmosphere">
-    <div class="product-image">
-      <img src="/images/products/kontra-bowl.jpg" alt="Stelton Kontra Fruit Bowl" loading="lazy">
-    </div>
-    <p class="product-name">kontra fruit bowl</p>
-    <p class="product-descriptor">bamboo and stainless steel</p>
-  </a>
+  <a class="product-card" href="/products/section-bowl/" data-category="atmosphere">
+  <div class="product-image">
+    <img src="/images/products/section-bowl.jpg" alt="Form & Refine Section Bowl" loading="lazy">
+  </div>
+  <p class="product-name">section bowl</p>
+  <p class="product-descriptor">solid european oak</p>
+</a>
 
   <a class="product-card" href="/products/kaiser-idell-lamp/" data-category="atmosphere">
     <div class="product-image">
@@ -367,13 +367,13 @@ footer hr {
     <p class="product-descriptor">lacquered steel with beechwood handle</p>
   </a>
 
-  <a class="product-card" href="/products/barbry-salt-pepper-mills/" data-category="tabletop">
-    <div class="product-image">
-      <img src="/images/products/barbry-salt-pepper.jpg" alt="Barbry Salt and Pepper Mills" loading="lazy">
-    </div>
-    <p class="product-name">barbry salt & pepper mills</p>
-    <p class="product-descriptor">mirror-polished stainless steel</p>
-  </a>
+  <a class="product-card" href="/products/alfredo-salt-pepper/" data-category="tabletop">
+  <div class="product-image">
+    <img src="/images/products/alfredo-salt-pepper.jpg" alt="Georg Jensen Alfredo Salt & Pepper Mills" loading="lazy">
+  </div>
+  <p class="product-name">alfredo salt & pepper mills</p>
+  <p class="product-descriptor">mirror-polished stainless steel</p>
+</a>
 
   <a class="product-card" href="/products/blomus-alpha-carafe/" data-category="utility">
     <div class="product-image">

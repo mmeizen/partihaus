@@ -10,6 +10,6 @@ designer: "Finn Juhl"
 materials: "teak, glossy laminate"
 origin: "Denmark"
 made_for: "serving, display, daily use"
-affiliate_url: "AFFILIATE_URL"
+affiliate_url: "https://www.finnishdesignshop.com/en-us/product/turning-tray-medium-black-white"
 affiliate_text: "find it here →"
 ---

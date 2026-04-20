@@ -10,6 +10,6 @@ designer: "HolmbäckNordentoft"
 materials: "lacquered stainless steel, FSC beechwood"
 origin: "Denmark"
 made_for: "daily coffee, table serving, considered mornings"
-affiliate_url: "AFFILIATE_URL"
+affiliate_url: "https://www.finnishdesignshop.com/en-us/product/emma-french-press-33-8-oz"
 affiliate_text: "find it here →"
 ---

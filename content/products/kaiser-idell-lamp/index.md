@@ -10,6 +10,6 @@ designer: "Christian Dell"
 materials: "steel, brass, hand-painted lacquer"
 origin: "Denmark"
 made_for: "task lighting, ambient lighting, long-term ownership"
-affiliate_url: "AFFILIATE_URL"
+affiliate_url: "https://www.finnishdesignshop.com/en-us/product/kaiser-idell-6631-t-luxus-table-lamp-white"
 affiliate_text: "find it here →"
 ---

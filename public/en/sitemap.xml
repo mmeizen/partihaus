@@ -10,7 +10,7 @@
   
     
       <url>
-            <loc>http://localhost:1313/products/barbry-salt-pepper-mills/</loc>
+            <loc>http://localhost:1313/products/alfredo-salt-pepper/</loc>
           </url>
     
   
@@ -35,12 +35,6 @@
     
       <url>
             <loc>http://localhost:1313/products/kaiser-idell-lamp/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/products/kontra-fruit-bowl/</loc>
           </url>
     
   
@@ -90,6 +84,12 @@
     
       <url>
             <loc>http://localhost:1313/products/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/products/section-bowl/</loc>
           </url>
     
   

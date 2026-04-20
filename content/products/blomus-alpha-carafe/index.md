@@ -10,6 +10,6 @@ designer: "Paul Flowers for blomus"
 materials: "hand-blown glass, stainless steel"
 origin: "Germany"
 made_for: "wine service, dinner hosting, daily use"
-affiliate_url: "AFFILIATE_URL"
+affiliate_url: "https://www.nordicnest.com/brands/blomus/alpha-decanting-carafe/"
 affiliate_text: "find it here →"
 ---
