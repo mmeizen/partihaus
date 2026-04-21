@@ -1,3 +1,12 @@
+/* Fix back link alignment on product page */
+#back-link {
+  text-align: left;
+  width: 100%;
+  max-width: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 /* Fix nav text color on homepage hero */
 body.home header nav a,
 body.list.home header nav a,
