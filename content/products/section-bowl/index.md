@@ -10,6 +10,6 @@ designer: "Herman Studio for Form & Refine"
 materials: "solid European oak, natural oil finish"
 origin: "Denmark"
 made_for: "display, fruit, daily use"
-affiliate_url: "https://www.finnishdesignshop.com/en-us/product/section-wooden-bowl"
+affiliate_url: "https://sovrn.co/jknorbc"
 affiliate_text: "find it here →"
 ---
