@@ -5,6 +5,7 @@ theme = "congo"
 
 [params]
   author = "partihaus"
+  colorScheme = "light"
 
 [params.products]
   list = false
