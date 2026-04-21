@@ -1,4 +1,6 @@
 colorScheme = "light"
+defaultAppearance = "light"
+autoSwitchAppearance = false
 description = "Curated objects for the design-minded."
 
 [author]
