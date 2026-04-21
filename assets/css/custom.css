@@ -1,3 +1,11 @@
+/* Fix nav text color on homepage hero */
+body.home header nav a,
+body.list.home header nav a,
+body.home header nav a span,
+body.list.home header nav a span {
+  color: #333333 !important;
+}
+
 /* Force light mode regardless of OS preference */
 :root {
   color-scheme: light !important;
