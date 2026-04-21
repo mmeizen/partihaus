@@ -10,6 +10,6 @@ designer: "Kaj Franck"
 materials: "lead-free molded glass"
 origin: "Finland"
 made_for: "daily use, table setting, collecting by color"
-affiliate_url: "https://www.finnishdesignshop.com/en-us/product/kartio-tumbler-40-cl-2-pcs-aqua"
+affiliate_url: "https://amzn.to/4cL5kSu"
 affiliate_text: "find it here →"
 ---
