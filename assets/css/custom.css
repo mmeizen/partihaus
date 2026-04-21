@@ -1,3 +1,38 @@
+/* Force light mode regardless of OS preference */
+:root {
+  color-scheme: light !important;
+}
+
+html {
+  background-color: #ffffff !important;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root,
+  html,
+  body {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+  }
+
+  /* Override Congo's dark mode Tailwind classes */
+  .dark\:bg-neutral-800,
+  .dark\:bg-neutral-900,
+  .dark\:bg-neutral-950 {
+    background-color: #ffffff !important;
+  }
+
+  .dark\:text-neutral-100,
+  .dark\:text-neutral-200,
+  .dark\:text-neutral-300 {
+    color: #333333 !important;
+  }
+}
 /* Import Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
