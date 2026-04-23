@@ -134,6 +134,10 @@ a[aria-label="Scroll to top"] {
     padding: 2rem;
   }
    
+  article.prose.max-w-full {
+    margin-top: -15vh;
+  }
+   
   h1,
   .prose h1,
   .hero h1,
