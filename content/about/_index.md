@@ -77,10 +77,12 @@ footer hr {
 }
 @media (max-width: 768px) {
   main > header {
+    margin: 0 !important;
     padding-left: 1rem !important;
   }
   .prose {
     max-width: 100% !important;
+    margin: 0 !important;
     padding: 6vh 1.25rem 0 !important;
   }
 }
