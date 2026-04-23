@@ -428,8 +428,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.cssText = 'display:flex; align-items:center; width:100%; justify-content:space-between;';
     var backItem = document.createElement('li');
     backItem.style.cssText = 'list-style:none;';
-    backItem.innerHTML = '<a href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
-    nav.insertBefore(backItem, nav.firstChild);
+backItem.innerHTML = '<a class="back-link" href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
   }
 
 });
