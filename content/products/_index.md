@@ -9,17 +9,17 @@ cascade:
 <style>
 /* PAGE LAYOUT */
 .prose {
-  max-width: 750px !important;
+  max-width: 620px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
   text-align: center !important;
 }
 .max-w-prose {
-  max-width: 750px !important;
+  max-width: 620px !important;
 }
 /* TITLE */
 main > header {
-  max-width: 1100px !important;
+  max-width: 620px !important;
   margin: 0 auto !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
