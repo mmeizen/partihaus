@@ -37,7 +37,8 @@ header a[href="/"]:not(.back-link) {
 }
 
 /* Header layout */
-header {
+body > header,
+body > div > header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,8 +122,9 @@ header nav a:focus span {
 @media (max-width: 768px) {
   body.list.home main,
   body.home main {
-    height: 100svh;
-    padding-bottom: 4rem;
+    min-height: calc(100vh - 5rem);
+    height: auto;
+    padding: 2rem 2rem 6rem;
   }
 
   h1,
@@ -137,7 +139,8 @@ header nav a:focus span {
     font-size: 1.25rem;
   }
 
-  header {
+  body > header,
+  body > div > header {
     padding: 1rem 1.25rem;
   }
 }
