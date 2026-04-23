@@ -36,7 +36,7 @@ header a[href="/"]:not(.back-link) {
   display: none;
 }
 
-/* Header layout */
+/* Site header layout only — not main > header */
 body > header,
 body > div > header {
   display: flex;
@@ -45,27 +45,42 @@ body > div > header {
   padding: 1.5rem 2rem;
 }
 
-header nav {
+/* Site nav only */
+body > header nav,
+body > div > header nav {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: flex-end;
 }
 
-header nav a {
+body > header nav a,
+body > div > header nav a {
   font-weight: 300;
   letter-spacing: 0.01em;
+}
+
+body > header nav a span,
+body > div > header nav a span {
+  text-decoration: none !important;
+}
+
+body > header nav a:hover span,
+body > div > header nav a:hover span,
+body > header nav a:focus span,
+body > div > header nav a:focus span {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 /* =========================
    Typography
    ========================= */
 
-/* Main title */
-h1,
-.prose h1,
-.hero h1,
-.hero-title h1 {
+/* Homepage title only */
+body.home h1,
+body.list.home h1 {
   font-size: 6.8rem;
   line-height: 1;
   font-weight: 400;
@@ -74,9 +89,9 @@ h1,
   color: #333333;
 }
 
-/* Subtitle */
-p,
-.prose p {
+/* Homepage subtitle only */
+body.home p,
+body.list.home p {
   font-size: 1.75rem;
   color: #333333;
   margin-top: 0.3rem;
@@ -99,17 +114,6 @@ a[aria-label="Scroll to top"] {
   display: none !important;
 }
 
-header nav a span {
-  text-decoration: none !important;
-}
-
-header nav a:hover span,
-header nav a:focus span {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-
 /* kills Congo/Tailwind underline system */
 .group-hover\:underline {
   text-decoration: none !important;
@@ -122,22 +126,20 @@ header nav a:focus span {
 @media (max-width: 768px) {
   body.list.home main,
   body.home main {
-    height: calc(100vh - 5rem);
-    min-height: unset;
+    height: auto;
+    min-height: calc(100dvh - 5rem);
     align-items: center;
     justify-content: center;
     padding: 2rem;
   }
 
-  h1,
-  .prose h1,
-  .hero h1,
-  .hero-title h1 {
+  body.home h1,
+  body.list.home h1 {
     font-size: 3.5rem;
   }
 
-  p,
-  .prose p {
+  body.home p,
+  body.list.home p {
     font-size: 1.25rem;
   }
 
@@ -147,13 +149,15 @@ header nav a:focus span {
     flex-wrap: nowrap;
   }
 
-  header nav {
+  body > header nav,
+  body > div > header nav {
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     gap: 1.25rem;
   }
 
-  header nav ul {
+  body > header nav ul,
+  body > div > header nav ul {
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     gap: 1.25rem;
