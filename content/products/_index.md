@@ -64,6 +64,7 @@ section.prose.mt-10 {
   font-size: 0.875rem !important;
   font-weight: 300 !important;
   z-index: 1000 !important;
+  transition: opacity 0.2s ease !important;
 }
 #back-link a,
 #back-link a:visited,
@@ -455,5 +456,18 @@ footer hr {
   checkboxes.forEach(function(cb) {
     cb.addEventListener('change', applyFilter);
   });
+
+  // Hide back link on scroll
+  window.addEventListener('scroll', function() {
+    const backLink = document.getElementById('back-link');
+    if (window.scrollY > 60) {
+      backLink.style.opacity = '0';
+      backLink.style.pointerEvents = 'none';
+    } else {
+      backLink.style.opacity = '1';
+      backLink.style.pointerEvents = 'auto';
+    }
+  });
+
 })();
 </script>
