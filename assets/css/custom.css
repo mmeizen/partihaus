@@ -126,7 +126,7 @@ a[aria-label="Scroll to top"] {
 @media (max-width: 768px) {
   #main-content:has(article.prose.max-w-full) {
     height: auto;
-    min-height: calc(100dvh - 4rem);
+    min-height: calc(100dvh - 8rem);
     display: flex;
     align-items: center;
     justify-content: center;
