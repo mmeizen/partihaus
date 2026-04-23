@@ -19,8 +19,8 @@ cascade:
 }
 /* TITLE (REAL CONGO H1) */
 main > header {
-  max-width: 820px !important;
-  margin: 0 auto !important;
+  max-width: 1100px !important;
+  margin: 0 auto 0 10vw !important;
   text-align: center !important;
   display: block !important;
   margin-bottom: 0 !important;
