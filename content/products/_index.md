@@ -28,6 +28,12 @@ main > header {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
+  
+  #main-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+  
 /* TITLE SPACING */
 h1.mt-0 {
   margin-top: 0rem !important;
