@@ -78,27 +78,20 @@ body > div > header nav a:focus span {
    Typography
    ========================= */
 
-/* All pages — base h1 size */
-h1 {
-  font-size: 3rem;
+h1,
+.prose h1,
+.hero h1,
+.hero-title h1 {
+  font-size: 6.8rem;
   line-height: 1;
-  font-weight: 300;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  letter-spacing: -0.025em;
   margin: 0;
   color: #333333;
 }
 
-/* Homepage title — larger override */
-body.home h1,
-body.list.home h1 {
-  font-size: 6.8rem;
-  font-weight: 400;
-  letter-spacing: -0.025em;
-}
-
-/* Homepage subtitle only */
-body.home p,
-body.list.home p {
+p,
+.prose p {
   font-size: 1.75rem;
   color: #333333;
   margin-top: 0.3rem;
@@ -131,22 +124,15 @@ a[aria-label="Scroll to top"] {
    ========================= */
 
 @media (max-width: 768px) {
-  body.list.home main,
-  body.home main {
-    height: auto;
-    min-height: calc(100dvh - 5rem);
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  body.home h1,
-  body.list.home h1 {
+  h1,
+  .prose h1,
+  .hero h1,
+  .hero-title h1 {
     font-size: 3.5rem;
   }
 
-  body.home p,
-  body.list.home p {
+  p,
+  .prose p {
     font-size: 1.25rem;
   }
 
