@@ -80,7 +80,8 @@ body.home main {
 }
 
 /* Remove site title in header */
-header a[href="/"] {
+header .site-title,
+header [class*="site-title"] {
   display: none;
 }
 
