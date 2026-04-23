@@ -95,8 +95,7 @@ the name comes from architecture. *parti* is the simplest possible diagram of a 
 this collection is for those who think about design — and those who gift them.
 
 <script>
-(function() {
-  // Inject back link into nav bar
+document.addEventListener('DOMContentLoaded', function() {
   var nav = document.querySelector('header nav') || document.querySelector('nav');
   if (nav) {
     var backItem = document.createElement('li');
@@ -104,5 +103,5 @@ this collection is for those who think about design — and those who gift them.
     backItem.innerHTML = '<a href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
     nav.insertBefore(backItem, nav.firstChild);
   }
-})();
+});
 </script>
