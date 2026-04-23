@@ -28,7 +28,7 @@ header h1,
 h1.mt-0.text-4xl.font-extrabold {
   text-align: left !important;
   font-weight: 300 !important;
-  font-size: 2.25rem !important;
+  font-size: 3rem !important;
   color: #333333 !important;
   letter-spacing: -0.02em;
   margin-bottom: -2rem !important;
@@ -47,32 +47,8 @@ h1.mt-0.text-4xl.font-extrabold {
 section.prose.mt-10 {
   display: none !important;
 }
-#back-link {
-  position: fixed !important;
-  top: 2.75rem !important;
-  left: 275px !important;
-  font-size: 0.875rem !important;
-  font-weight: 300 !important;
-  z-index: 1000 !important;
-  transition: opacity 0.2s ease !important;
-}
-#back-link a,
-#back-link a:visited,
-#back-link a:hover,
-#back-link a:active,
-#back-link a:focus {
-  color: #333333 !important;
+nav a {
   text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-#back-link a:hover {
-  color: #000000 !important;
-}
-#back-link a {
-  all: unset;
-  color: #333333;
-  cursor: pointer;
 }
 nav a,
 nav a:visited {
@@ -99,12 +75,6 @@ header nav a:hover {
 footer hr {
   display: none !important;
 }
-@media (max-width: 1024px) {
-  #back-link {
-    position: fixed !important;
-    left: 1.25rem !important;
-  }
-}
 @media (max-width: 768px) {
   main > header {
     padding-left: 1rem !important;
@@ -116,8 +86,6 @@ footer hr {
 }
 </style>
 
-<div id="back-link"><a href="/">← partihaus</a></div>
-
 the name comes from architecture. *parti* is the simplest possible diagram of a design idea — the concept stripped to its core before anything else is added. *haus* is home, and a quiet reference to the Bauhaus, which spent a century proving that the objects you live with should be both useful and beautiful
 
 *partihaus* curates from that same conviction — objects with a clear *parti* and selected for function, form, and longevity.
@@ -125,3 +93,16 @@ the name comes from architecture. *parti* is the simplest possible diagram of a 
 <p class="center-line">timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design</p>
 
 this collection is for those who think about design — and those who gift them.
+
+<script>
+(function() {
+  // Inject back link into nav bar
+  var nav = document.querySelector('header nav') || document.querySelector('nav');
+  if (nav) {
+    var backItem = document.createElement('li');
+    backItem.style.cssText = 'list-style:none; margin-right:auto; padding-right:1.5rem;';
+    backItem.innerHTML = '<a href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
+    nav.insertBefore(backItem, nav.firstChild);
+  }
+})();
+</script>
