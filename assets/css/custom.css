@@ -31,12 +31,12 @@ body.home main {
   text-align: center;
 }
 
-/* Remove site title in header */
-header a[href="/"] {
+/* Hide Congo site title link only — not injected nav links */
+header a[href="/"]:not(.back-link) {
   display: none;
 }
 
-/* Push nav to top with back link on left, other links on right */
+/* Header layout */
 header {
   display: flex;
   justify-content: space-between;
@@ -112,4 +112,26 @@ header nav a:focus span {
 /* kills Congo/Tailwind underline system */
 .group-hover\:underline {
   text-decoration: none !important;
+}
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 768px) {
+  h1,
+  .prose h1,
+  .hero h1,
+  .hero-title h1 {
+    font-size: 3.5rem;
+  }
+
+  p,
+  .prose p {
+    font-size: 1.25rem;
+  }
+
+  header {
+    padding: 1rem 1.25rem;
+  }
 }
