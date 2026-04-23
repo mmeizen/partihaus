@@ -78,15 +78,22 @@ body > div > header nav a:focus span {
    Typography
    ========================= */
 
-/* Homepage title only */
+/* All pages — base h1 size */
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #333333;
+}
+
+/* Homepage title — larger override */
 body.home h1,
 body.list.home h1 {
   font-size: 6.8rem;
-  line-height: 1;
   font-weight: 400;
   letter-spacing: -0.025em;
-  margin: 0;
-  color: #333333;
 }
 
 /* Homepage subtitle only */
