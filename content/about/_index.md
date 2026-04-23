@@ -4,7 +4,7 @@ showTitle: true
 ---
 <style>
 .prose {
-  max-width: 720px !important;
+  max-width: 750px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
   padding-right: 0 !important;
