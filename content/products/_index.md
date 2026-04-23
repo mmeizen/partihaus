@@ -21,6 +21,8 @@ cascade:
 main > header {
   max-width: 1100px !important;
   margin: 0 auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   text-align: left !important;
   display: block !important;
   margin-bottom: 0 !important;
