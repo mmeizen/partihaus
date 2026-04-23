@@ -119,6 +119,12 @@ header nav a:focus span {
    ========================= */
 
 @media (max-width: 768px) {
+  body.list.home main,
+  body.home main {
+    height: 100svh;
+    padding-bottom: 4rem;
+  }
+
   h1,
   .prose h1,
   .hero h1,
