@@ -259,12 +259,6 @@ header nav a:hover {
 }
 
 /* MOBILE */
-@media (max-width: 1024px) {
-  #back-link {
-    left: 1.25rem !important;
-  }
-}
-
 @media (max-width: 768px) {
   main > header {
     padding-left: 1rem !important;
@@ -386,7 +380,8 @@ footer hr {
 </div>
 
 <script>
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
+
   const toggle = document.getElementById('filterToggle');
   const menu = document.getElementById('filterMenu');
   const checkboxes = menu.querySelectorAll('input[type="checkbox"]');
@@ -436,5 +431,5 @@ footer hr {
     nav.insertBefore(backItem, nav.firstChild);
   }
 
-})();
+});
 </script>
