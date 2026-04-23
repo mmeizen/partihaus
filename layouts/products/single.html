@@ -1,8 +1,6 @@
 {{ define "main" }}
   {{ partial "product-styles.html" . }}
 
-  <div id="back-link"><a href="/products">← products</a></div>
-
   <div class="product-detail">
     <div class="detail-image">
       <img src="{{ .Params.image }}" alt="{{ lower .Title }}">
@@ -61,4 +59,16 @@
     </div>
   </nav>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var nav = document.querySelector('header nav') || document.querySelector('nav');
+  if (nav) {
+    nav.style.cssText = 'display:flex; align-items:center; width:100%; justify-content:space-between;';
+    var backItem = document.createElement('li');
+    backItem.style.cssText = 'list-style:none;';
+    backItem.innerHTML = '<a class="back-link" href="/products" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← products</a>';
+    nav.insertBefore(backItem, nav.firstChild);
+  }
+});
+</script>
 {{ end }}
