@@ -86,6 +86,12 @@ footer hr {
     padding: 6vh 1.25rem 0 !important;
   }
 }
+@media (max-width: 1024px) and (orientation: landscape) {
+  header h1,
+  h1.mt-0.text-4xl.font-extrabold {
+    margin-bottom: 1rem !important;
+  }
+}
 </style>
 
 the name comes from architecture. *parti* is the simplest possible diagram of a design idea — the concept stripped to its core before anything else is added. *haus* is home, and a quiet reference to the Bauhaus, which spent a century proving that the objects you live with should be both useful and beautiful
