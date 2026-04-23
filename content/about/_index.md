@@ -101,8 +101,13 @@ footer hr {
 }
 
 @media (max-width: 768px) {
-  #back-link { left: 1.25rem !important; }
-  .prose { max-width: 100% !important; }
+  main > header {
+    padding-left: 1rem !important;
+  }
+  .prose {
+    max-width: 100% !important;
+    padding: 6vh 1.25rem 0 !important;
+  }
 }
 </style>
 
