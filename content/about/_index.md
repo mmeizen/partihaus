@@ -4,17 +4,17 @@ showTitle: true
 ---
 <style>
 .prose {
-  max-width: 750px !important;
+  max-width: 620px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
-  padding-right: 10vh !important;
+  padding-right: 0 !important;
   text-align: left !important;
 }
 .max-w-prose {
-  max-width: 750px !important;
+  max-width: 620px !important;
 }
 main > header {
-  max-width: 820px !important;
+  max-width: 620px !important;
   margin: 0 auto !important;
   text-align: left !important;
   display: block !important;
@@ -28,15 +28,15 @@ header h1,
 h1.mt-0.text-4xl.font-extrabold {
   text-align: left !important;
   font-weight: 300 !important;
-  font-size: 3rem !important;
+  font-size: 2.25rem !important;
   color: #333333 !important;
   letter-spacing: -0.02em;
   margin-bottom: -2rem !important;
 }
 .prose p {
   font-weight: 300;
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  line-height: 1.6;
   margin: 0 0 0.75rem 0;
   color: #333333;
 }
@@ -53,7 +53,8 @@ section.prose.mt-10 {
   left: 275px !important;
   font-size: 0.875rem !important;
   font-weight: 300 !important;
-  z-index: 100 !important;
+  z-index: 1000 !important;
+  transition: opacity 0.2s ease !important;
 }
 #back-link a,
 #back-link a:visited,
@@ -93,13 +94,17 @@ header nav a:hover {
   letter-spacing: 0.02em;
   text-align: center !important;
   margin: 1.5rem 0 !important;
-  padding-right: 4vh !important;
+  padding-right: 0 !important;
 }
-
 footer hr {
   display: none !important;
 }
-
+@media (max-width: 1024px) {
+  #back-link {
+    position: fixed !important;
+    left: 1.25rem !important;
+  }
+}
 @media (max-width: 768px) {
   main > header {
     padding-left: 1rem !important;
@@ -111,12 +116,4 @@ footer hr {
 }
 </style>
 
-<div id="back-link"><a href="/">← partihaus</a></div>
-
-the name comes from architecture. *parti* is the simplest possible diagram of a design idea — the concept stripped to its core before anything else is added. *haus* is home, and a quiet reference to the Bauhaus, which spent a century proving that the objects you live with should be both useful and beautiful
-
-*partihaus* curates from that same conviction — objects with a clear *parti* and selected for function, form, and longevity.
-
-<p class="center-line">timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design</p>
-
-this collection is for those who think about design — and those who gift them.
+<div id="back-link"><a href="/">← partihaus
