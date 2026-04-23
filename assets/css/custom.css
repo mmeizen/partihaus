@@ -124,6 +124,12 @@ a[aria-label="Scroll to top"] {
    ========================= */
 
 @media (max-width: 768px) {
+  #main-content:has(article.prose.max-w-full) {
+    height: auto;
+    min-height: calc(100dvh - 4rem);
+  }
+
+@media (max-width: 768px) {
   h1,
   .prose h1,
   .hero h1,
@@ -157,4 +163,5 @@ a[aria-label="Scroll to top"] {
     margin: 0;
     padding: 0;
   }
+   
 }
