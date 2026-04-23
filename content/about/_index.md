@@ -14,7 +14,7 @@ showTitle: true
   max-width: 620px !important;
 }
 main > header {
-  max-width: 620px !important;
+  max-width: 820px !important;
   margin: 0 auto !important;
   text-align: left !important;
   display: block !important;
@@ -31,7 +31,7 @@ h1.mt-0.text-4xl.font-extrabold {
   font-size: 3rem !important;
   color: #333333 !important;
   letter-spacing: -0.02em;
-  margin-bottom: -2rem !important;
+  margin-bottom: 0rem !important;
 }
 .prose p {
   font-weight: 300;
