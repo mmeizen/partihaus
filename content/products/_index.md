@@ -56,40 +56,9 @@ h1.mt-0.text-4xl.font-extrabold {
 section.prose.mt-10 {
   display: none !important;
 }
-/* BACK LINK */
-#back-link {
-  position: fixed !important;
-  top: 2.75rem !important;
-  left: 275px !important;
-  font-size: 0.875rem !important;
-  font-weight: 300 !important;
-  z-index: 1000 !important;
-  transition: opacity 0.2s ease !important;
-}
-#back-link a,
-#back-link a:visited,
-#back-link a:hover,
-#back-link a:active,
-#back-link a:focus {
-  color: #333333 !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-#back-link a:hover {
-  color: #000000 !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
 /* NAV CLEANUP */
 nav a {
   text-decoration: none !important;
-}
-#back-link a {
-  all: unset;
-  color: #333333;
-  cursor: pointer;
 }
 nav a,
 nav a:visited {
@@ -321,8 +290,6 @@ footer hr {
 }
 </style>
 
-<div id="back-link"><a href="/">← partihaus</a></div>
-
 <div class="filter-bar">
   <div class="filter-dropdown">
     <button class="filter-toggle" id="filterToggle">
@@ -460,17 +427,14 @@ footer hr {
     cb.addEventListener('change', applyFilter);
   });
 
-  // Hide back link on scroll
-  window.addEventListener('scroll', function() {
-    const backLink = document.getElementById('back-link');
-    if (window.scrollY > 50) {
-      backLink.style.opacity = '0';
-      backLink.style.pointerEvents = 'none';
-    } else {
-      backLink.style.opacity = '1';
-      backLink.style.pointerEvents = 'auto';
-    }
-  });
+  // Inject back link into nav bar
+  var nav = document.querySelector('header nav') || document.querySelector('nav');
+  if (nav) {
+    var backItem = document.createElement('li');
+    backItem.style.cssText = 'list-style:none; margin-right:auto; padding-right:1.5rem;';
+    backItem.innerHTML = '<a href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
+    nav.insertBefore(backItem, nav.firstChild);
+  }
 
 })();
 </script>
