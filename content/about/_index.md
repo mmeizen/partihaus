@@ -4,7 +4,7 @@ showTitle: true
 ---
 <style>
 .prose {
-  max-width: 750px !important;
+  max-width: 620px !important;
   margin: 0 auto !important;
   padding-top: 10vh !important;
   padding-right: 0 !important;
@@ -14,7 +14,7 @@ showTitle: true
   max-width: 620px !important;
 }
 main > header {
-  max-width: 820px !important;
+  max-width: 620px !important;
   margin: 0 auto !important;
   text-align: left !important;
   display: block !important;
@@ -31,7 +31,7 @@ h1.mt-0.text-4xl.font-extrabold {
   font-size: 3rem !important;
   color: #333333 !important;
   letter-spacing: -0.02em;
-  margin-bottom: 0rem !important;
+  margin-bottom: -2rem !important;
 }
 .prose p {
   font-weight: 300;
@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var backItem = document.createElement('li');
     backItem.style.cssText = 'list-style:none;';
     backItem.innerHTML = '<a class="back-link" href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
+    nav.insertBefore(backItem, nav.firstChild);
   }
 });
 </script>
