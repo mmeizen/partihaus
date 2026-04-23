@@ -133,7 +133,11 @@ a[aria-label="Scroll to top"] {
     text-align: center;
     padding: 2rem;
   }
-
+   
+#main-content article {
+    margin-top: -20vh;
+  }
+   
   h1,
   .prose h1,
   .hero h1,
