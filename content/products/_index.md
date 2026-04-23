@@ -297,13 +297,16 @@ header nav a:hover {
 }
 
 @media (max-width: 768px) {
+  main > header {
+    padding-left: 1rem !important;
+  }
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
-    padding: 0.5rem 0 3rem;
+    padding: 0.5rem 1rem 3rem;
   }
   .filter-bar {
-    padding: 1.5rem 0 0;
+    padding: 1.5rem 1rem 0;
   }
   .products-grid .product-name {
     font-size: 0.85rem !important;
@@ -460,7 +463,7 @@ footer hr {
   // Hide back link on scroll
   window.addEventListener('scroll', function() {
     const backLink = document.getElementById('back-link');
-    if (window.scrollY > 60) {
+    if (window.scrollY > 50) {
       backLink.style.opacity = '0';
       backLink.style.pointerEvents = 'none';
     } else {
