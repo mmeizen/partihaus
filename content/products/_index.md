@@ -17,11 +17,11 @@ cascade:
 .max-w-prose {
   max-width: 750px !important;
 }
-/* TITLE (REAL CONGO H1) */
+/* TITLE */
 main > header {
   max-width: 1100px !important;
-  margin: 0 auto 0 10vw !important;
-  text-align: center !important;
+  margin: 0 auto !important;
+  text-align: left !important;
   display: block !important;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -428,7 +428,8 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.cssText = 'display:flex; align-items:center; width:100%; justify-content:space-between;';
     var backItem = document.createElement('li');
     backItem.style.cssText = 'list-style:none;';
-backItem.innerHTML = '<a class="back-link" href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>'; nav.insertBefore(backItem, nav.firstChild);
+    backItem.innerHTML = '<a class="back-link" href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
+    nav.insertBefore(backItem, nav.firstChild);
   }
 
 });
