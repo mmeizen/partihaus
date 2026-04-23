@@ -98,8 +98,9 @@ this collection is for those who think about design — and those who gift them.
 document.addEventListener('DOMContentLoaded', function() {
   var nav = document.querySelector('header nav') || document.querySelector('nav');
   if (nav) {
+    nav.style.cssText = 'display:flex; align-items:center; width:100%; justify-content:space-between;';
     var backItem = document.createElement('li');
-    backItem.style.cssText = 'list-style:none; margin-right:auto; padding-right:1.5rem;';
+    backItem.style.cssText = 'list-style:none;';
     backItem.innerHTML = '<a href="/" style="color:#333333; text-decoration:none; font-size:0.875rem; font-weight:300;">← partihaus</a>';
     nav.insertBefore(backItem, nav.firstChild);
   }
