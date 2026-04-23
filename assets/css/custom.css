@@ -134,10 +134,6 @@ a[aria-label="Scroll to top"] {
     padding: 2rem;
   }
    
-#main-content article {
-    margin-top: -15vh;
-  }
-   
   h1,
   .prose h1,
   .hero h1,
