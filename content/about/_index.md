@@ -116,4 +116,12 @@ footer hr {
 }
 </style>
 
-<div id="back-link"><a href="/">← partihaus
+<div id="back-link"><a href="/">← partihaus</a></div>
+
+the name comes from architecture. *parti* is the simplest possible diagram of a design idea — the concept stripped to its core before anything else is added. *haus* is home, and a quiet reference to the Bauhaus, which spent a century proving that the objects you live with should be both useful and beautiful
+
+*partihaus* curates from that same conviction — objects with a clear *parti* and selected for function, form, and longevity.
+
+<p class="center-line">timeless over trendy <span class="divider">·</span> quality over imitation <span class="divider">·</span> intentional design</p>
+
+this collection is for those who think about design — and those who gift them.
