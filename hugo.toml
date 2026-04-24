@@ -5,6 +5,7 @@ theme = "congo"
 
 [params]
   author = "partihaus"
+  favicon = "/favicon.ico"
 
 [params.products]
   list = false
