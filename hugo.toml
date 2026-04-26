@@ -2,6 +2,7 @@ baseURL = 'https://partihaus.com/'
 languageCode = 'en-us'
 title = 'partihaus'
 theme = "congo"
+googleAnalytics = "G-XPGZF8YP64"
 
 [params]
   author = "partihaus"
